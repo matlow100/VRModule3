@@ -24,7 +24,7 @@ public class PuzzleChecker : MonoBehaviour
 
         if (other.gameObject.CompareTag("Piece"))
         {
-            Debug.log("You removed a piece");
+            Debug.Log("You removed a piece");
         }
     }
 }
