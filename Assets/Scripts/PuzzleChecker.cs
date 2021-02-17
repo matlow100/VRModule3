@@ -18,4 +18,13 @@ public class PuzzleChecker : MonoBehaviour
             }
         }
     }
+
+    void OnTriggerExit(Collider other)
+    {
+
+        if (other.gameObject.CompareTag("Piece"))
+        {
+            Debug.log("You removed a piece");
+        }
+    }
 }
