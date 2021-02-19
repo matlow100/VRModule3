@@ -7,6 +7,7 @@ using UnityEngine.UI;
 public class PuzzleChecker : MonoBehaviour
 {
     public Piece piece;
+    private int count = 0;
 
     void OnTriggerEnter(Collider other)
     {
@@ -14,7 +15,12 @@ public class PuzzleChecker : MonoBehaviour
         {
             if (GameObject.ReferenceEquals(other.gameObject, piece.gameObject))
             {
-                Debug.Log("You did it.");
+                count = count + 1;
+                if (count == 6)
+                {
+                    Debug.Log("You win!");
+                }
+                Debug.Log(count);
             }
         }
     }
@@ -24,6 +30,7 @@ public class PuzzleChecker : MonoBehaviour
 
         if (other.gameObject.CompareTag("Piece"))
         {
+            count = count - 1;
             Debug.Log("You removed a piece");
         }
     }
