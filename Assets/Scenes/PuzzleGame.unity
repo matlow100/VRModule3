@@ -281,6 +281,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   piece: {fileID: 49700039}
+  countManager: {fileID: 1613893410}
 --- !u!65 &21967591
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -856,6 +857,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   piece: {fileID: 1774187732}
+  countManager: {fileID: 1613893410}
 --- !u!65 &195404432
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1384,6 +1386,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   piece: {fileID: 367422204}
+  countManager: {fileID: 1613893410}
 --- !u!65 &789920067
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1590,6 +1593,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   piece: {fileID: 1445856202}
+  countManager: {fileID: 1613893410}
 --- !u!65 &1106476282
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1761,6 +1765,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   piece: {fileID: 184622922}
+  countManager: {fileID: 1613893410}
 --- !u!1 &1445856201
 GameObject:
   m_ObjectHideFlags: 0
@@ -2041,6 +2046,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   piece: {fileID: 1764543768}
+  countManager: {fileID: 1613893410}
 --- !u!65 &1464189306
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2112,6 +2118,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1613893409}
+  - component: {fileID: 1613893410}
   m_Layer: 0
   m_Name: Slots
   m_TagString: Untagged
@@ -2139,6 +2146,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1613893410
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1613893408}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42aae26287bf4eb4d8960321f2659acb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1764543766
 GameObject:
   m_ObjectHideFlags: 0
