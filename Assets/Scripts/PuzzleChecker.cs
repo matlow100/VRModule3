@@ -7,6 +7,8 @@ using UnityEngine.UI;
 public class PuzzleChecker : MonoBehaviour
 {
     public Piece piece;
+    public CountManager countManager;
+    // private int count = 0;
 
     void OnTriggerEnter(Collider other)
     {
@@ -14,7 +16,19 @@ public class PuzzleChecker : MonoBehaviour
         {
             if (GameObject.ReferenceEquals(other.gameObject, piece.gameObject))
             {
-                Debug.Log("You did it.");
+                countManager.IncreaseCount();
+            }
+        }
+    }
+
+    void OnTriggerExit(Collider other)
+    {
+
+        if (other.gameObject.CompareTag("Piece"))
+        {
+            if (GameObject.ReferenceEquals(other.gameObject, piece.gameObject))
+            {
+                countManager.DecreaseCount();
             }
         }
     }
