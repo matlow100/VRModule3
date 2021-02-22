@@ -24,7 +24,10 @@ public class PuzzleChecker : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Piece"))
         {
-            countManager.DecreaseCount();
+            if (GameObject.ReferenceEquals(other.gameObject, piece.gameObject))
+            {
+                countManager.DecreaseCount();
+            }
         }
     }
 }
