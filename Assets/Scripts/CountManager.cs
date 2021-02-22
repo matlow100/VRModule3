@@ -19,7 +19,7 @@ public class CountManager : MonoBehaviour
         if (count >= 6)
         {
             Debug.Log("You Win!");
-            winText.isActive(true);
+            winText.gameObject.SetActive(true);
         }
     }
 
