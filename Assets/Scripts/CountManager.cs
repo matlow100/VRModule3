@@ -16,6 +16,7 @@ public class CountManager : MonoBehaviour
     public void IncreaseCount()
     {
         count++;
+        Debug.Log(count);
         if (count >= 6)
         {
             Debug.Log("You Win!");
@@ -26,5 +27,6 @@ public class CountManager : MonoBehaviour
     public void DecreaseCount()
     {
         count--;
+        Debug.Log(count);
     }
 }
