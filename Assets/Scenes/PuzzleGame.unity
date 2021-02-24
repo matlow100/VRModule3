@@ -8518,7 +8518,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34c55b3671216e146b25b7316f52ffa9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  piece: {fileID: 184622922}
+  piece: {fileID: 234468741}
   countManager: {fileID: 1613893410}
 --- !u!1 &1336621900 stripped
 GameObject:
@@ -9074,7 +9074,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34c55b3671216e146b25b7316f52ffa9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  piece: {fileID: 878337772}
+  piece: {fileID: 2011797135}
   countManager: {fileID: 1613893410}
 --- !u!65 &1522119891
 BoxCollider:
@@ -9188,6 +9188,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   winText: {fileID: 54230973}
+  winningMap: {fileID: 894160687}
+  piece1: {fileID: 234468740}
+  piece2: {fileID: 1183637443}
+  piece3: {fileID: 2011797133}
+  piece4: {fileID: 878337770}
+  piece5: {fileID: 1511411863}
+  piece6: {fileID: 184622914}
 --- !u!1 &1629664031
 GameObject:
   m_ObjectHideFlags: 0
@@ -9234,7 +9241,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34c55b3671216e146b25b7316f52ffa9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  piece: {fileID: 1511411865}
+  piece: {fileID: 1183637445}
   countManager: {fileID: 1613893410}
 --- !u!65 &1629664034
 BoxCollider:
@@ -9344,7 +9351,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34c55b3671216e146b25b7316f52ffa9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  piece: {fileID: 2011797135}
+  piece: {fileID: 878337772}
   countManager: {fileID: 1613893410}
 --- !u!65 &1633643579
 BoxCollider:
@@ -9952,7 +9959,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34c55b3671216e146b25b7316f52ffa9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  piece: {fileID: 1183637445}
+  piece: {fileID: 1511411865}
   countManager: {fileID: 1613893410}
 --- !u!65 &1867328498
 BoxCollider:
@@ -10619,7 +10626,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34c55b3671216e146b25b7316f52ffa9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  piece: {fileID: 234468741}
+  piece: {fileID: 184622922}
   countManager: {fileID: 1613893410}
 --- !u!65 &2067156428
 BoxCollider:
